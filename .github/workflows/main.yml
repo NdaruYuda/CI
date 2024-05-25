@@ -52,7 +52,7 @@ jobs:
         id: job-building-status
         if: ${{ success() }}
         run: |
-          curl --location --request POST "https://api.telegram.org/bot7001127112:AAEVGnFBGmIDGteQHVQsUFUBXDrr7QaUbn4/sendMessage" \
+          curl --location --request POST "https://api.telegram.org/bot7001127112:AAEVGnFBGmIDGteQHVQsUFUBXDrr7QaUb4/sendMessage" \
           --header "Content-Type: application/json" \
           --data-raw '{"chat_id": "5585357966", "text": "Proses Building Berhasil --- RPL 2A"}'
 
